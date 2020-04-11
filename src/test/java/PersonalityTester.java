@@ -31,6 +31,9 @@ public class PersonalityTester
                 }
                 assertEquals(s, a);
             }
+            while(answer.hasNextLine()) {
+                assertTrue(answer.nextLine().trim().isEmpty());
+            }
             assertFalse(solution.hasNextLine());
         } catch (IOException err) {
             throw new AssertionError("Cannot open input files, or your program threw an IOException error.", err);
