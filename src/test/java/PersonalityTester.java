@@ -2,8 +2,6 @@ import org.junit.Test;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.NoSuchElementException;
-import java.util.Random;
 import java.util.Scanner;
 
 import static org.junit.Assert.*;
