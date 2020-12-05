@@ -6,13 +6,22 @@ import java.util.Scanner;
 public class PersonalityTest
 {
 
+
+
+
+
+
     @Override
     public String toString()
     {
         return "Testing this class";
     }
 
-    public static void run(File inputFile, File outPutFile) throws IOException {
+    /*
+     * DONT CHANGE THE FOLLOWING FUNCTION, its for testing.
+     */
+    public static void run(File inputFile, File outPutFile) throws IOException
+    {
         Scanner in = new Scanner(inputFile);
         FileWriter out = new FileWriter(outPutFile);
         while(in.hasNextLine()){
@@ -72,6 +81,7 @@ public class PersonalityTest
             } else {
                 result[2] = 'X';
             }
+
 
             ac = 0;
             bc = 0;
