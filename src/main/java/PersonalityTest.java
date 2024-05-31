@@ -10,8 +10,7 @@ public class PersonalityTest
 
 
 
-
-    /*
+        /*
      * DONT CHANGE THE FOLLOWING FUNCTION, its for testing.
      */
     public static void run(File inputFile, File outPutFile) throws IOException
